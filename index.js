@@ -18,11 +18,11 @@ import 'flexboxgrid';
  import React from 'react';
  import ReactDOM from 'react-dom';
  import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
- import MyAwesomeReactComponent from './src/components/MyAwesomeReactComponent';
+ import TextField from 'components/elements/TextField';
 
  const App = () => (
      <MuiThemeProvider>
-       <MyAwesomeReactComponent />
+       <TextField />
      </MuiThemeProvider>
  );
 
